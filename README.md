@@ -1,1 +1,5 @@
-# fertilizer-market-intelligence
+# Urea Price Analysis and Forecasting Report
+- This project analyzes monthly urea prices using European natural-gas and US wheat prices from [World Bank Commodities Price Data](https://www.worldbank.org/en/research/commodity-markets) as explanatory indicators.
+- Short-term percentage changes were less strongly related. Natural-gas changes showed their largest association with next-month urea price changes (0.161), while wheat provided only a weak short-term signal.
+- Four forecasting approaches were evaluated using a chronological 80/20 train-test split. A linear-regression model using one-month lags of urea, European gas, and wheat performed best, achieving a mean absolute error of $38.21 per metric tonne and RMSE of $66.71 per metric tonne. Both XGBoost alternatives produced substantially larger errors.
+- Overall, recent urea prices, European gas costs, and wheat prices are useful inputs for short-term urea-price forecasting. The linear model is the preferred tested approach, though its error level means forecasts should support—not replace—market judgement.
