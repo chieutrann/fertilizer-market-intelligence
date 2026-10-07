@@ -6,10 +6,8 @@
 - Four forecasting approaches were evaluated using a chronological 80/20 train-test split. A linear-regression model using one-month lags of urea, European gas, and wheat performed best, achieving a mean absolute error of $38.21 per metric tonne and RMSE of $66.71 per metric tonne. Both XGBoost alternatives produced substantially larger errors.
 - Overall, recent urea prices, European gas costs, and wheat prices are useful inputs for short-term urea-price forecasting. The linear model is the preferred tested approach, though its error level means forecasts should support—not replace—market judgement.
 
+# Power BI Dashboard — Page 2
 
-# Power BI Dashboard
+![Power BI Dashboard – Page 2](Page2.jpg)
 
-
-![Power BI Dashboard – Page 1](Dashboard/Page1.jpg)
-
-[Next: Page 2 →](Dashboard/Page2.md)
+[← Previous: Page 1](../README.md#power-bi-dashboard)
